@@ -1,0 +1,70 @@
+body {
+  background: rgb(149, 149, 149);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-color: black;
+  border: 4px solid #90f390;
+  border-radius: 20px;
+  width: 550px;
+  height: 600px;
+  padding: 50px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+#boxmensage , #boxout {
+  display: flex;
+  width: 400px;
+  max-width: 60%;
+  height: 100px;
+  padding: 20px 20px 20px 100px;
+  margin-bottom: 10px;
+}
+
+#typelanguage {
+  height: 30px;
+  border: 4px solid #90f390;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#incremento {
+  display: inline;
+  padding: 10px;
+  width: 25%;
+}
+
+#incremento input {
+  width: 10%;
+  font-size: 15px;
+  border: 2px solid #90f3ae;
+  border-radius: 10px;
+}
+
+section {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #90f390;
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #90f3ae;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
