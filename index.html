@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Codificando e Decodificando Mensagens</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="form">
+            <h3>Codificar e Decodificar Mensagens</h3>
+            <div id="boxmensage">
+                <textarea name="message" id="message" cols="40" rows="5" placeholder="Mensagem..."></textarea>
+            </div>
+
+            <select id="typelanguage">
+                <option value="cifra">Cifra De Cesar</option>
+                <option value="base">Base64</option>
+            </select>
+
+            <div id="incremento">
+                <label for="limite">Incremento</label>
+                <input type="number" id="valor" value="1" min=1 max=26 />
+            </div>
+            <section>
+                <input type="radio" id="cod" name="opção" onclick="textoBtn()">
+                <label for="codificar">Codificar</label>
+                <input type="radio" id="decod" name="opção" onclick="textoBtn()">
+                <label for="decodificar">Decodificar</label>
+            </section>
+
+            <button id="btn" class="botao">Selecione uma opção acima</button>
+
+            <div id="boxout">
+                <textarea name="resultado" id="result" cols="40" rows="5" placeholder="Resultado..."></textarea>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
